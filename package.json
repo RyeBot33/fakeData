@@ -1,0 +1,19 @@
+{
+  "name": "fakedata",
+  "version": "1.0.0",
+  "description": "Fake Data for big mac MQTT client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fakeServe": "nodemon --watch fake_models --exec json-server ./fake_models/_db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
